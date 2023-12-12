@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.course-data {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.course {
+  padding: 10px 20px;
+  box-shadow: 0px 3px 6px rgba(000, 000, 000, 0.6),
+    inset 1px 2px 0px rgba(255, 255, 255, 0.4);
+}
+
+.course-name {
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.course-price {
+  font-family: math;
+  font-weight: 600;
+  background: chartreuse;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.course-duration {
+  font-family: math;
+  font-weight: 600;
+}
+
+.course-detail-button {
+  align-self: center;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10%;
+  font-family: Courier;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.course-banner {
+  max-height: 400px;
+  max-width: 550px;
+  align-self: center;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
